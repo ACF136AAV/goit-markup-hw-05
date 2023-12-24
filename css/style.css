@@ -490,7 +490,9 @@ li:hover p{
     text-align: left;
     margin-bottom: 8px;
 }
-
+.media{
+    margin-right: 80px;
+}
 .text-apps {
     font-size: 16px;
     line-height: 1.5;
@@ -502,8 +504,10 @@ li:hover p{
     transform: translateY(0%);
 }
 .logo-cont{
-    margin-right: 120px;
+    margin-right: 150px;
     width: 264px;
+    flex-shrink: 0;
+    margin-left: 156px;
 }
 .footer-cont {
     display: flex;
@@ -548,6 +552,39 @@ li:hover p{
 .footer-icons{
     fill: #f4f4fd;
 }
+.subscribe-btn{
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: #4D5AE5;
+}
+.form-subsctibe{
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #2E2F42;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.icon-plane{
+    fill: #FFFFFF;
+}
+.subscribe-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.subscribe-btn{
+    color: #FFFFFF;
+}
 .backdrop{
     position: fixed;
     top: 0;
@@ -566,7 +603,7 @@ li:hover p{
     visibility: hidden;
     pointer-events: none;
 }
-.backdrop.is-open{
+.backdrop.is-{
     opacity: 1;
     visibility: visible;
     pointer-events: initial;

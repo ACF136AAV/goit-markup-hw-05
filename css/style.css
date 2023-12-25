@@ -474,7 +474,6 @@ li:hover p{
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-apps{
     padding: 32px 16px;
@@ -638,6 +637,7 @@ li:hover p{
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.40);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     opacity: 0;
@@ -700,10 +700,10 @@ li:hover p{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2E2F42;
 }
-.modal-btn-icon:hover{
+.modal-btn:hover .modal-btn-icon{
     fill: #ffffff
 }
-.modal-btn-icon:focus{
+.modal-btn:focus .modal-btn-icon{
     fill: #ffffff
 }
 .modal-caption{
